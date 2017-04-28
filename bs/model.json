@@ -1,7 +1,1 @@
-{
-	"name":"小恐龙",
-	"size":"1024",
-	"desc":"这是一只可爱的小恐龙，像素风格，充分节省存储空间，说不定还能喷火",
-	"imgs":["www","www","www"],
-	"address":"www.baidu.com"
-}
+{"name":"小恐龙","size":"1024","desc":"这是一只可爱的小恐龙，像素风格，充分节省存储空间，说不定还能喷火","imgs":["www","www","www"],"address":"www.baidu.com"}
