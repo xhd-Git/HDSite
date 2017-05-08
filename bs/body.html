@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>肢解毕业论文</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h2 id="toc_0">第一章  背景及意义</h2>
+
+<h4 id="toc_1">1.1  3D打印</h4>
+
+<p>制造的方法变革是推进工业发展的一把利剑，近年来最引人注目的制造方法就是3D打印了。3D打印的学名是增材制造（Additive manufacturing，AM），与传统的制造方式不同的是，增材制造技术是一个由少到多的过程，由下而上一层一层的把材料聚合成想要的产品，整个过程几乎没有浪费，只要设计得出来能制造的产品就没有限制。随着技术的进步，3D打印必将成为引起变革的一项技术。</p>
+
+<p>3D打印出现自上世纪80年代，最初3D打印机的体积很大，成本很高，并未出现在人们的视野中。但是3D打印并没有停止发展，3D打印技术越来越成熟，最常见的3D打印技术是熔融沉积成型（FDM）技术，是将热熔性丝状材料在喷头处融化，按3D模型文件描述从下往上一层层绘制，融化的材料离开喷头迅速凝固，最终形成3D实体。还有很多其他的成型技术，比如分层实体制造、立体光固化成型、选择性激光烧结，聚合物喷射技术等。3D打印机也在随着技术的进步逐步改良，能放到桌面上的家用3D打印机也已面世，增材制造的时代正在来临。</p>
+
+<p>比起传统制造业，3D打印的优势非常大，首先，增材制造的方法不需要模具，只要有三维模型文件就可以进行制造，成本要低很多；其次，传统的减材制造方法不仅浪费材料，还需要提前准备足够体积的原材料，否则就无法生产，而增材制造就完全没有限制；再次，在制造复杂的产品时，传统制造方法可能需要相当长的时间，有些特别复杂的零件甚至无法制作，而增材制造对复杂的零件依然可以很快完成；另外，在制作定制产品或者某些艺术品等手工产品时，增材制造也有代替手工制造的潜力。3D打印的应用前景不只是工业制造业，在航空航天，医疗，教育甚至食品行业中均有用武之地。</p>
+
+<h4 id="toc_2">1.2 Android</h4>
+
+<p>智能手机现在已经是人们离不开的生活必需品了，而Android正是智能手机的普及过程中占领了主要市场份额的一枝独秀。</p>
+
+<p>Android的本意是“机器人”，是一个基于Linux开发的开源的移动平台操作系统，起源于2003年，在2005年被Google收购。2007年11月，Google正式发布Android操作系统并联合34家厂商成立了“开放手机联盟”，开启了手机操作系统新时代。2008年Android1.0发布，随即迅速迭代，如今已经是Android7.1版本，市场占有率也越来越高。而且Android系统本身开源，各手机厂商可以自己定制系统发布手机，可以节省很多成本，虽然都是Android系统，不同品牌的系统差异也相当大，这种现象称为Android的碎片化。这虽为Android应用开发带来了不小的麻烦，却也是Android系统取得如此成就的重要一环。</p>
+
+<p>Android的平台架构分为五层，自上而下分别是系统应用，Java API框架，原生C／C++库和Android Runtime，硬件抽象层和Linux内核。系统应用是一些提供智能手机基本功能的软件，与其他的App并没有本质区别，系统的默认应用完全可以被第三方应用替代。Java API框架是开发Android应用需要学习的部分，通过Java API可以使用整个Android系统的功能，包括系统应用框架API。许多核心Android系统组件和服务（例如ART和HAL）构建自原生代码，需要以C和C++编写的原生库，Java API中也提供了一部分原生库中的功能，比如可以通过Java OpenGL API 使用 OpenGL ES绘制图形。Android Runtime是Dalvik虚拟机的进化版，每个应用都在其自己的进程中运行，并且有其自己的ART实例。硬件抽象层 (HAL) 提供标准界面，向更高级别的 Java API 框架显示设备硬件功能。HAL包含多个库模块，其中每个模块都为特定类型的硬件组件实现一个界面，例如相机或蓝牙模块。当框架 API 要求访问设备硬件时，Android 系统将为该硬件组件加载库模块。Linux内核是Android平台的基础，主要提供一些底层功能，例如线程和低层内存管理。</p>
+
+<p>Android不仅在手机领域应用广泛，在其他嵌入式设备中也有一席之地。随着物联网的飞速发展，Android在物联网中的表现非常值得期待，以Google对Android的重视程度来看，以Android为基础的桌面操作系统也是可能出现的。</p>
+
+<h4 id="toc_3">1.3 发展现状分析</h4>
+
+<p>家用的3D打印机虽然已经面世，但其昂贵的价格以及过于低的精度使3D打印机很难迅速的普及。3D打印机的控制软件还都比较专业，主要是PC端软件。在Android端也有一些商业化的应用，软件和3D打印机或者其他硬件相关联，通常也比较专业。3D打印机厂商不仅提供硬件，也会自己做软件的优化以配合自己的产品，通用的3D打印机软件很少，开源的3D打印软件几乎不存在，以Github的数据来看，Android端的3D打印控制App完全没有开源代码可以参考。</p>
+
+<p>在Android平台上已经有了一些比较专业的3D打印管理软件，其中最成功的是GCodePrintr 2.0。GCodePrintr是2013年由一个德国的开发者开发的功能强大的3D打印控制软件，它可以监控3D打印过程，并且能够实时调整，缩短打印时间，自发布以来广受好评。魔猴网是国内比较领先的3D打印平台，他们采用了智能硬件配合App的方式实现了相对通用的3D打印机控制App。</p>
+
+<h2 id="toc_4">第二章 技术介绍及原理分析</h2>
+
+<h4 id="toc_5">2.1 ButterKnife</h4>
+
+<p>ButterKnife是一个知名度很高的第三方开源库，其功能是view的注入，就是通过注解转换的方式完成findviewbyid的功能，从而达到提高开发效率，简化代码，使代码结构更清晰的效果。  </p>
+
+<p><strong>1.使用方法</strong></p>
+
+<p>首先要导入ButterKnife到工程中：<br>
+注解的方法使用起来很简单，在声明控件之前添加相应的注解，在创建Activity的时候统一进行绑定即可。</p>
+
+<div><pre><code class="language-none">@BindView(R.id.text)
+TextView textView;
+
+onCreate(){
+
+    ButterKnife.bind(this);
+}</code></pre></div>
+
+<p>ButterKnife不仅可以在Activity中使用，在任何需要绑定view的地方都可以使用，区别在于bind方法传的参数不同。比如在Fragment中使用ButterKnife，需要在onCreateView方法中进行bind，参数除了fragment本身，还需要传入fragment加载的layout view。</p>
+
+<div><pre><code class="language-none">@BindView(R.id.button)
+Button button;
+
+onCreateView(){
+
+    View view = inflater.inflate(R.layout.fragment,container,false);
+    ButterKnife.bind(this.view);
+}</code></pre></div>
+
+<p>除了view的注入，ButterKnife还提供了一个另一个常用功能的注解，即setOnClickListener。通过@OnClick注解加上onClick方法的实现，将view注入和设置点击事件的监听一体化，极大的缩减了代码量，并且使view部分代码更加集中，Activity的结构更加清晰。</p>
+
+<p><strong>2.实现原理</strong></p>
+
+<p>通过注解替代一些代码很容易让人想到反射相关的内容，但是反射消耗太大，bind操作一般在onCreate中，进行复杂的操作必然会导致卡顿，对性能的影响太大了。ButterKnife使用了Annotation Processing技术，bind方法的内容在编译的时候就已经进行了处理，在生成字节码之前，把bind方法的实现替换成注解view的绑定（并且还是用了findViewById方法），到执行bind方法的时候就跟执行findViewById方法没有什么区别，对执行的性能完全没有影响。<br>
+对注解的处理在ButterKnifeProcessor中，其中的process方法会找到ButterKnife的注解，并将注解的内容生成一个ViewBinder类，在这里把注解下的view绑定到bind方法中的参数对应的位置，这也解释了@BindView注解不能够设为private的原因 —— 需要给ViewBinder访问权限。</p>
+
+<h4 id="toc_6">2.2 STL模型文件</h4>
+
+<p>STL文件格式是3D打印中最常用的模型文件格式，也是本课题涉及的唯一的模型文件格式。Android中并没有能打开查看STL格式文件的默认应用，如何在Android设备上显示STL文件是主要的研究任务。</p>
+
+<p>STL（STereoLithography，立体光刻）是由3D System软件公司创造的用于立体光刻电脑辅助设计软件的文件格式。STL文件只包含所描述模型的表面几何形状，其他信息一概没有。而普通的3D打印过程也只需要这些几何信息，颜色或材料等额外的属性也不需要模型文件自身提供。随着3D打印技术的兴起，STL也被推广，成为如今3D打印的标准格式。</p>
+
+<p>STL文件通过三角形顶点坐标描述物体的几何位置和关系，其文件内容主要是一个个构成三角形的坐标。内容又分为两种格式，文字格式和二进制格式。文字格式需要很多的描述字符，比如solid，vertex，facet等，这对可读性有着非常大的帮助，但实际上并不会有人希望查看STL文件真正的内容，就算给出了所有的顶点信息也不可能因此明白STL文件描述的实际模型到低是什么样子，但这些字符占用了极大的存储空间，现在已经基本被废弃了。二进制格式就要简洁很多，（如图所示），所有的信息按照约定好的顺序排列，没有任何多余的描述符，从头到尾都是模型相关的数据信息，人基本无法阅读，但对机器而言应该会更加清晰。二进制格式的STL文件是现在的主流模型文件格式，所有用到STL文件的地方都是指二进制格式，所以实现STL文件查看的时候只考虑二进制格式。</p>
+
+<p>要想在Android设备上显示出STL文件，就要读取出其中包含的三角形顶点信息，首先要清楚的就是STL文件中的数据排列问题。</p>
+
+<p>STL文件以字节为单位存储数据，按顺序是80字节的header，4字节的无符号整数表示文件中三角形的总数，再之后就是每个三角形的信息，包括12字节的法向量信息，36字节的顶点坐标信息和2字节的属性信息。header用来存放一些模型的名称或者介绍之类的信息，内容可有可无，是类似于注释一样的存在，解析模型文件的时候要跳过这些字节。4字节的三角形总数可以在读取完成前给我们一个对文件大小的印象，从而进行相应的反应。每个三角形除了自身的三个顶点坐标，还有一个确定面朝向的法向量坐标，因为三维空间中描述坐标需要3个坐标值，每个坐标值占4字节，所以需要12字节。最后的2字节在标准格式中为0，多数软件也不识别其含义，也可以跳过。</p>
+
+<p>通过以下代码可以按字节读出一个STL文件，对于理解STL文件真实结构很有帮助。</p>
+
+<div><pre><code class="language-none">public static void main(String[] args) {
+    try {
+        InputStream inputStream = new FileInputStream(new File(&quot;/Users/reol/Desktop/003.stl&quot;));
+        ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+
+        int nRead;
+        byte[] data = new byte[16384];
+
+        while ((nRead = inputStream.read(data, 0, data.length)) != -1) {
+            buffer.write(data, 0, nRead);
+        }
+
+        buffer.flush();
+        byte[] bytes = buffer.toByteArray();
+
+        int count = 0;
+        for (int i = 0; i&lt;bytes.length; i++){
+            System.out.print(bytes[i]);
+            count++;
+            if (count % 8 == 0){
+                System.out.println();
+            }else{
+                System.out.print(&quot; , &quot;);
+            }
+        }
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}</code></pre></div>
+
+<h4 id="toc_7">2.3 OpenGL ES</h4>
+
+<p>OpenGL（Open Graphics Library，开放图形库）通常被理解为一组操作图形、图像的跨语言、跨平台API，其功能就是将2D或3D的矢量图形绘制到屏幕上。OpenGl的图形绘制由硬件实现，核心部分代码由C语言编写，并做了针对硬件的高效实现，使用的时候主要依靠调用API，最初的OpenGL在使用的过程中几乎没法进行控制。随着OpenGL的发展，为了能更多的控制OpenGL的渲染过程，着色器语言应运而出。使用着色器语言可以通过顶点和片元的渲染方式对整个模型进行渲染控制。</p>
+
+<p>OpenGL ES（OpenGL for Embedded Systems）是 OpenGL 三维图形API针对嵌入式系统设计的子集，Android系统提供了OpenGL ES完整的API，Android开发可以直接在GLSurfaceView中进行OpenGL的绘图处理，但要注意的是OpenGL ES的版本与Android版本的对应，Android1.0往上就支持OpenGL ES1.0，而OpenGL ES2.0，3.0，3.1就分别要在Android2.2，4.3，5.0版本以后才能使用。</p>
+
+<p>OpenGL的绘制方式与STL文件的描述方式都是以顶点为基础的，故而使用OpenGL显示STL文件不需要太复杂的步骤，只要显示3D模型的话OpenGL1.0就足够了。OpenGL1.0的绘制过程称为渲染管线，是一种类似于流水线的处理过程，输入的是待渲染3D物体的相关描述信息数据，输出的是一帧想要的图像。具体的处理流程：基本处理，顶点缓冲对象，变换和光照，图元装配，光栅化，纹理环境和颜色求和，雾化，Alpha 测试，裁剪测试，深度测试和模板测试，颜色缓冲混合，抖动，帧缓冲。</p>
+
+<h4 id="toc_8">2.4 Fresco</h4>
+
+<p>图片加载是非常普遍的需求，无论是什么类型的应用，图片的说服力，表现力都要更好一些，于是很多的图片加载框架应运而生，随着时间的淘汰，目前使用较多的还有四个：UniversalImageLoader，Picasso，Glide，Fresco。UniversalImageLoader是Github上star数最多的一个，很多应用都在使用，不幸的是其作者已经停止维护，最新一次commit也是一年前了，所以不再考虑。Picasso是Square出品的一个轻量级的图片加载库，体积小，功能单一，调用简洁，可以满足大多数图片加载的需求。Glide是Picasso的进化版，在Picasso的基础上做了大量的优化和改进，对内存的管理以及功能上的实现都比Picasso优秀一些，只是体积略大一点，不过也就几百k，完全可以接受。Fresco出现的最晚，功能也最强大，最重要的是对内存的管理上在底层进行了优化，可以有效避免OOM。鉴于模型主页需要大量显示图片，为了性能上更好的表现，就选择了Fresco。</p>
+
+<p>Fresco是Facebook公司开源的一个非常强大的图片加载框架，但使用起来并不复杂，只要用SimpleDraweeView设置好xml属性和图片url，具体的过程都可以不去考虑。xml属性中包括了很多实用的属性，比如加载中的占位图，加载失败的替代图还有圆角显示等等，尽可能的把属性设置放在布局文件中可以减少视图层与控制层的耦合，便于修改和扩展。Fresco支持多种图片格式，包括webp和gif，支持JPEG图片渐进式显示，还支持指定焦点缩放，可以说是非常优雅了。如果不只有显示图片的需求，更多的控制图片加载的过程Fresco也能满足，通过设置DraweeController和ControllerListener就可以监听图片加载过程，在加载完成或加载失败后作处理。通过Postprocessor和ImageRequest可以在图片加载完成但还没显示之前对bitmap进行处理，显示加工后的图片。通过配置Image pipeline可以实现更多的控制，这些就很少用到了。</p>
+
+<p>Fresco对内存的处理是其最大的优势，也是多数人选择Fresco的主要原因。Fresco设计了三层缓存，加载图片时会按顺序寻找图片，找到了就返回，否则继续向下一级寻找。第一层是bitmap缓存，第二层是未解码的图片缓存，第三层是磁盘缓存。Android应用的内存分配是有限制的，每个进程能使用的内存很小，缓存bitmap很容易出现OOM，Fresco使用了Ashmem存放bitmap，Ashmem类似于Native内存区，但是它是受Android系统底层管理的，当Android系统内存不足时，会回收Ashmem区域中状态是unpin的对象内存块，如果不希望对象被回收，可以通过pin来保护一个对象。通过使用Ashmem可以有效节省Android给进程分配的内存，避免内存溢出。但操作Ashmem需要对底层的理解和Native的编码，难度可想而知，对于Fresco只要会使用方法就可以了。</p>
+
+<h4 id="toc_9">2.5 Retrofit</h4>
+
+<p>网络请求是Android与服务端交流的方式，几乎所有的Android App都离不开网络请求，关于网络请求的第三方开源库也有很多，各具特色。因为Android规定不能在主线程进行网络请求，所以封装网络请求时必须要考虑异步执行，主线程回调，还有线程池，缓存等问题，使用第三方的开源库可以有效缩短开发周期，降低开发难度，可以说是不二之选。第三方的网络请求库也有很多，就不一一列举了，Retrofit是目前性能最好，处理最快的一个，就决定是它了。Retrofit1.x和2.x的版本差别很大，项目中实际使用的是2.2.0版本，以下提到的Retrofit默认是2.0以后版本。</p>
+
+<p>Retrofit的使用方法并不复杂，却不太好理解。通过Gradle导入之后，首先是写http请求，以普通的GET请求为例，需要写一个接口：  </p>
+
+<div><pre><code class="language-none">public interface RetroHttp {
+
+    @GET(&quot;{model}&quot;)
+    Call&lt;ModelJson&gt; getModel(@Path(&quot;model&quot;) String path);
+}</code></pre></div>
+
+<p>在调用getModel方法的地方先创建RetroHttp接口的实例：</p>
+
+<div><pre><code class="language-none">Retrofit retrofit = new Retrofit.Builder()
+    .baseUrl(&quot;https://xhd-git.github.io/HDSite/bs/&quot;)
+    .addConverterFactory(GsonConverterFactory.create())
+    .build();
+
+RetroHttp proxy = retrofit.create(RetroHttp.class);</code></pre></div>
+
+<p>然后执行请求：</p>
+
+<div><pre><code class="language-none">proxy.getModel(&quot;model.json&quot;).enqueue(callback);</code></pre></div>
+
+<p>在callback中处理服务端的响应即可。</p>
+
+<p>代码虽然很简洁，理解起来却并不容易。流程就是在接口中写请求，使用注解的形式定义参数的含义，而后通过接口创建实例执行请求，处理回调。Retrofit用注解表示请求方式（如@GET，@POST，@DELETE等）和请求参数（如@Path，@Query，@Part等），返回值的类型默认为Call，可以通过在Retrofit实例中添加不同的ConverterFactory直接把返回值转换为想要的类型，在Retrofit2.0版本以后ConverterFactory需要单独添加依赖，Gson和Jackson的ConverterFactory比较常用。Retrofit的baseUrl和接口中的请求方式后的内容拼接成为最终的Url，baseUrl的内容以“／”结尾，如果请求中有某一个baseUrl不一样的话可以在接口中写下完整的Url。另外在使用@POST时还要在前面添加@FormUrlEncoded，否则Request body内容无法识别。执行请求时如果使用enqueue方法则发起异步请求，使用execute方法则发起同步请求。</p>
+
+<p>而Retrofit的实现原理就很复杂了，具体地说，Retrofit是一个RESTful的HTTP网络请求框架的封装，其底层用的是Okhttp实现具体的操作，Retrofit进行的操作是将请求的参数拼接传给Okhttp发送，再处理Okhttp的响应。Retrofit中最核心的两个技术是动态代理和反射，Retrofit的create方法就是创建动态代理的过程。深入源码探索就会发现，实际上定义的接口中的方法并没有真的执行，而是在创建代理的时候读取了其中的参数，如此一来就更好理解为什么请求是写了一个接口方法。不仅是功能的实现方法，Retrofit还使用了很多的设计模式，在性能上也是无可挑剔的。</p>
+
+<p>本课题中主要使用了GET请求获取服务端的资源，请求json数据并通过GsonConverterFactory解析成java实体对象。除了获取信息，下载STL文件也是功能中的一个重要部分。文件下载的过程就是把服务端的资源以流的形式读取到内存再写入到本地文件的过程，Retrofit并没有提供封装好的文件下载方法，只能通过请求资源，把Response body转换成InputStream再写入本地，STL文件大小不一，但对于一些简单的小模型都在10M以下，不考虑断点续传和多线程下载，实现起来也没有问题。需要注意的是，无法通过获取流的长度得出文件大小，因为流并不是一次读到内存的。可以使用响应头中的content-length作为文件大小，每下载一部分文件后读取一次本地文件的大小当作进度显示，这样可以避免下载进度超过100%的bug。</p>
+
+<h4 id="toc_10">2.6 Material Design</h4>
+
+<p>Material Design（材料设计，或原质化设计）是Google在2014年推出的一种新的视觉设计语言，通过这些年的完善和进步，已经比较成熟，不仅Google的Web和Android应用在使用，很多国内的应用也开始接触并尝试使用（如网易云音乐等），官方提供了很多符合材料设计原则的控件，降低了程序员进行视觉设计的难度，使用Material Design不一定会使应用精美绝伦，但跟之前相比还是有很大程度的美化。</p>
+
+<p>所谓材料设计，就是将页面内的元素看作“某种材料”，这种类似于纸板的材料有1dp的固定厚度，不透明，不固定的大小，有属于自己的高度，不同高度的材料会相互遮掩，并由环境的光效造成投影效果。材料设计就是通过对纸墨的研究创造出来的，可以认为材料有物理实体，我们在页面内摆放材料不能违背物理规则，比如同一高度的材料会发生碰撞或融合而不能相交，比如高度较低的材料不能显示在较高的材料之上等。为了页面显示的流畅，还有一些与物理实体没什么关系的属性，比如材料可以随时出现或消失，不能弯曲或折叠，可以沿着任意坐标轴移动，其中z轴表示高度，高度的变化通常用于用户交互的暗示。</p>
+
+<p>使用材料设计，需要注意三个方面的细节，分别是布局，动画和交互。布局时需要额外注意每个控件的高度。应该把常驻页面内的元素放在下层，通过操作产生的元素按可能的顺序逐层加高，但是不要高过Android系统的状态栏。一般来说，高层的控件有对话框，侧边栏，工具栏菜单等响应用户操作产生的临时元素，中层的控件有工具栏，底部导航栏和浮动按钮等提示用户如何操作的需要强调的控件，底层则是卡片，列表等显示数据的载体。另外，关于工具栏等很多应用都会涉及的常见的设计元素，还有一些统一的边距和长宽的要求以保证不同应用具有一致性，有效降低用户的学习成本。动画是以布局为基础，目的是更加流畅地响应用户操作。在材料设计中，动画是真实动作的反应，比如平移动画在进行时速度不应该是一成不变的，还需要考虑加速度的影响。还需要注意的是动画应该是有意义的，动画的出现说明应用的用户的操作产生了回应，所有可以交互的地方都应该有回应，而无法交互的地方不该回应用户。交互是布局和动画设计的最终目标，材料设计规定了一些固定的交互模式，比如工具栏上的菜单项和溢出菜单的展示方法，菜单靠右侧对齐，溢出部分菜单放到最右边的菜单项中，点击会在旁边显示为PopupMenu的形式，还有侧边栏的导航方式，点击过侧边栏的内容之后，先关闭侧边栏再进行选择的操作，可以使页面的动画不发生冲突，尤其是在跳转页面的时候。</p>
+
+<p>材料设计还在不断的完善之中，对于一种视觉设计语言，适当地留给设计人员一些创造的空间也很重要。我在App的设计中大量使用了材料设计，包括一些最终没有实现的功能在内，但实现起来才发现个人开发精力有限，交互和动画方面的细节还是可能不尽如人意。App中使用了NavigationDrawer，BottomNavigationView+ViewPager，RecyclerView+CardView，Material Dialog等标准的材料设计控件，并使用了ToolBar取代ActionBar实现工具栏，详细的介绍将放在后面的文章中。</p>
+
+<h2 id="toc_11">第三章 技术实践与代码解释</h2>
+
+<h4 id="toc_12">3.1 server端的实现</h4>
+
+<p>近年来，随着4G移动网络的普及，各种公共场所wi-fi的兴起，手机基本实现了Always on line，网络的便捷性也给应用开发带来了新的思路，我们把所有可能变化的，或者不是很常用的，又或者数据量太大的数据内容放到服务器上，当应用需要使用数据的时候进行下载，既可以满足内容动态变化的需求，又能为用户节省手机本来就不多的储存空间。对于本课题来说，3D模型文件本身比较大，而且每个用户可能只需要几个3D模型，模型库也需要动态的增加新的模型，可以说搭建服务器势在必行。</p>
+
+<p>服务器的原理很简单，可以理解为把一台电脑通过一个端口对外开放访问，访问的方式，端口号，能访问到的数据权限等就需要一个服务器软件来控制，主流的服务器软件（如Apache，Nginx等）的优势劣势对比还有很多的不同，从我们的需求来看，主要的目的是储存stl格式的模型文件，Apache的服务器足以胜任。除了软件的选择，硬件选择也是一个问题。虽然对于一个毕设课题可以用个人PC搭建服务器，但测试的时候还是有很多限制，比如需要在同一局域网内，电脑不能关机等。选择租用一个服务器，就可以放宽对测试的限制，同时还能更加接近实际项目开发。最终，本课题服务端是VPS（Ubuntu16.04）+ Apache2构成的。</p>
+
+<p>服务端本身的问题解决了，还需要解决和服务端通信的问题。对于这个问题，我考虑了三种方案。  </p>
+
+<ul>
+<li><p>方案一：一般来说，客户端与服务端的交互是由http请求和服务端API返回数据完成的，客户端拼接请求参数，向指定的url发起GET或POST请求，服务端接收请求解析参数进行处理，给客户端传回请求的数据。这是最合理的解决方案，优点是客户端和服务端解耦彻底，服务端可以完成处理请求参数，查询数据库等操作，接口很灵活。但是需要学习的内容相当的多，在规定的日期内很可能无法完成。</p></li>
+<li><p>方案二：如果不考虑交互，完全把主动权交给客户端也是一种办法。服务端只用来存放数据，而把数据的索引放到客户端，当客户端需要数据的时候，只需要按索引查到所需数据的位置并获取，而对服务端几乎没有要求。这是最简单的解决方案，学习成本很低，大概只要两天就能实现。但缺点也很明显，当服务端数据改动，客户端无法知道，很可能出现错误，也就是失去了服务端的灵活性，整个服务端就像一个外置的存储设备。</p></li>
+<li><p>方案三：通过对方案二的进一步思考，我发现本地索引成为了破坏服务端动态性的罪魁祸首，那么，只要把索引放到服务端，在客户端进行一个初始化的过程，获取到这个索引，就可以在一定程上实现动态获取资源地址，至少是可以避免找不到资源的错误，增加新的资源也是可以实现的。缺点是获取索引需要一定的时间，相应的需要一个初始化的过程，当索引更新还需要想办法通知客户端更新，这个只能通过更改索引的内容来完成，在客户端的处理逻辑比较复杂。不过至少实现起来有迹可循，难度并不是很高。</p></li>
+</ul>
+
+<p>随后我进行了近一周的对服务端API的学习，之后选择了方案三。我没有多少STL文件资源，索引只要一个文件就足够了，文件格式一定是文本，但是纯文本的内容解析存在很多问题，开发中更多使用的是键值对的形式存放或传输数据，比如xml，json等，我尝试写了一个json文本放到服务端，在本地用Retrofit进行GET请求并用Gson解析取出模型名称字段，输出到log。事实证明这个方案可行，下一步就是定义接口（json中的键与值），根据显示页面之前做过的部分，每个模型包含以下字段：id，name，description，size，images，address。目前的模型数量很少，省去了分类等检索用的额外信息，其中images是一个存放预览图url的数组，address是STL文件下载地址，其他都是普通的字符串，id仅用来管理文件，不显示。</p>
+
+<h4 id="toc_13">3.2 STLView</h4>
+
+<p>已经了解的STL文件的内容结构和OpenGL ES的使用方法，下一步就是用Android设备显示3D模型。虽然GLSurfaceView可以显示解析好的STL数据，但这不符合软件工程的思想，STL模型的显示是一个相对独立，而且很实用的内容，通过自定义View的方式封装一个STLView既可以满足功能上的需求，还便于复用和修改内部实现方法。根据面向对象的程序设计思路，首先要把STL文件读到程序中，创建一个对应的对象，这个对象包括STL文件中的顶点位置等信息。之后，创建STLView继承GLSurfaceView，用作显示模型，GLSurfaceView需要一个Renderer控制绘制，也是联系起STLObject和STLView的桥梁，故单独写成一个STLRenderer类。</p>
+
+<p><strong>1.STLObject读取</strong> </p>
+
+<p>STL模型文件中包括的信息有三角形数量，顶点坐标，法线坐标和一个不太重要的属性信息，STLObject中首先要取出的就是这些信息。之后还要有一些对信息的处理，一是获取模型的尺寸和中心：为了在屏幕上显示出完整的模型，需要在显示时进行缩放。计算的方式是把模型补成一个长方体，把最边缘的顶点位置设置成边界，同方向的两个边界的中间点坐标当作模型的中心。二是三维坐标点的表示：Android本身的Point类只有两个坐标值，为了表示方便，需要一个三个参数的Point3类表示读出的顶点坐标。三是数据处理的工具方法：STL文件按字节读出，需要转换成int的三角形数量，float的顶点坐标值和short的顶点属性值。四是回调接口：STL模型文件一般都比较大，读取需要时间，在读取过程中需要给用户一个提示，就需要一个读取完成的回调接口。五是模型的绘制方法：虽然绘制并不能通过这个类直接进行，不过这里需要提供一个draw方法，指定绘制的参数中与模型本身相关的部分，以免在显示模型的时候写很多重复代码。</p>
+
+<p><strong>2.STLRenderer渲染</strong></p>
+
+<p>渲染就是绘制图形的全过程，包括环境空间的创建，模型的摆放，摄像机摆放和模型材质等参数的设置。创建渲染器需要实现Renderer接口，Renderer接口含有三个方法：onSurfaceCreated，onSurfaceChanged和onDrawFrame。onSurfaceCreated只在创建View时执行一次，进行一些初始化设置，主要是一些功能的启用和环境光照等。onSurfaceChanged在每次重绘时执行，可能涉及到视角变化或大小变化时可以在这里处理一下。onDrawFrame是最终把输出的帧绘制到屏幕上的方法，这个方法几乎是一直在反复执行的，在对模型进行实时的变换操作可以直接在这里进行，比如旋转，平移等。另外，Renderer中需要对外提供一个重绘模型的方法，就可以在这里进行处理。简单的重绘可以不涉及onSurfaceChanged，只要调用几次onDrawFrame即可。重绘方法还应该支持reset模型，这点可以通过重载方法来实现。</p>
+
+<p><strong>3.STLView显示</strong>   </p>
+
+<p>STLView继承自GLSurfaceView，跟Android的视图系统不一致的是Android其他视图系统是一层层向上绘制的，而GLSurfaceView是在屏幕上空出一个由硬件直接控制的绘制区域，就像是烧穿了下面的View直达底层。STL文件的绘制都在Renderer中了，STLView只是单纯的显示层，是使用Renderer绘制STL文件到屏幕上的一个载体。这个显示层需要处理的就是和用户的交互，查看3D模型不可避免的问题就是角度和大小的调整，模型一定要是可以动的，结合Android应用的习惯，模型应该是可以随着用户的手势操作进行旋转的。所以这个类中主要是onTouchEvent的分类和对不同触摸事件的处理。</p>
+
+<p>对于角度的调整比较复杂，单指拖动的操作视为旋转模型，拖动的方向和距离换算做旋转的方向和角度。旋转方法实现还要依靠Renderer提供接口。OpenGL ES提供了旋转的API，传入参数就能使用，是首选的实现方法。但使用时发现模型的旋转方向和拖动的方向不一定一致，而且转动很混乱。其原因在于坐标系的不同，3D模型的旋转API是针对模型自身坐标系，而我们在世界坐标系进行观察，最初二者是重合的，拖动操作正常，但是旋转一次之后两个坐标系已经不一样了，再按世界坐标系计算模型坐标系的旋转角度就会造成混乱。直接解决这个问题的方案应该是坐标系的转换，把世界坐标系的坐标值换算成模型坐标系再进行旋转，但这个过程需要复杂的三角函数运算，计算量很大，而STLView在不停的重绘渲染，必将导致卡顿。目前的实现方法比较流畅，而且已经能够查看三维模型的各个角度，这个问题暂时就不处理了。</p>
+
+<p>对于大小的调整就要简单一些，调整大小的操作是双指向不同方向拖动，在onTouchEvent中的判断方法是MotionEvent.ACTION<em>POINTER</em>DOWN时判断触摸点的个数，大于等于二则认为在进行缩放操作，并记录此时两点的间隔距离，拖动的时候会不断触发MotionEvent.ACTION_MOVE，在这里进行计算，如果两点间距离变化超过一定的值，就按比例的进行缩小或放大的变化，实现方法是调整Renderer中的public模型参数，再请求模型重绘。</p>
+
+<h4 id="toc_14">3.3 具体页面实现</h4>
+
+<h6 id="toc_15">3.3.1 BaseActivity</h6>
+
+<p>封装一个BaseActivity是项目开发中最实用的提高效率的方法之一。Activity作为Android四大组件中最常用的一个组件，每一个独立的可见页面都需要一个Activity，不同的Activity中难免会有一些重复的部分，包括布局，方法等，就算代码量不大，如果每一个Activity都要重复一遍也是一个不小的工作量，更重要的是修改一些共性问题时需要改动很多个类，不仅浪费时间，也增加了出错的概率。封装一个BaseActivity并使所有Activity继承自此类，在里面完成一些共性的操作，提供一些实用的方法，可以很大程度上提高开发和调试的效率，减少修改的成本。</p>
+
+<p>我的App中最多重复的部分在于标题栏（工具栏），大多数的标题栏的功能很简单，只要包括本页的导航标题和一个左箭头返回按钮，但也有稍复杂一点的需要显示菜单项的，还有很复杂的需要根据页面内容变动的。其他的共性代码并不多，而且整个应用使用了很多的Fragment和PopupWindow显示内容，并没有太多页面间的跳转。简单起见，我只在BaseActivity中封装了显示标题文字内容和显示返回上一页面按钮的方法，对于稍复杂的Activity，具体的实现就放在子类完成。另外还在BaseActivity的生命周期内添加了log输出用于调试应用。</p>
+
+<p>具体的实现采用了比较新的ToolBar代替ActionBar方案，尽可能的使用官方API，保证满足Material Design。首先写一个只有ToolBar的布局，并用super.setContentView加载到BaseActivity，重写setContentView方法，把子类的layout文件放到ToolBar下面，用setSupportActionBar(toolbar)把ToolBar设置为标题栏，标题栏（工具栏）的封装就完成了。之后是封装一些方法，比如显示左上角的返回按钮，显示标题的内容等。除了以上内容，还可以提供protect的Context对象，方便各种地方调用。</p>
+
+<h6 id="toc_16">3.3.2 底部导航</h6>
+
+<p>如果说启动页能带给用户对一个应用的第一印象，主页面就是应用真正的门面，在主页面不仅要放置最重要的信息，还要有优雅的布局，一眼就能看懂怎么用的导航栏，以及符合用户习惯的操作方式。导航栏是一个争议颇多的设计元素。关于Android的导航栏设计的主流一直在变化，Google官方推荐过一阵子顶部导航，但Android屏幕越来越大，顶部导航在操作上实在麻烦，现在使用比较多的还是底部导航和侧边导航栏。</p>
+
+<p>底部导航由来已久，又没有统一的要求，所以有着各种各样的实现方法（）。在Google推出的Support包25.0.0及以后终于添加的官方的底部导航栏：BottomNavigationView。依照Google在文档中的说明，BottomNavigationView的item在3到5之间，其他情况就要考虑其他的导航方式。BottomNavigationView默认样式符合材料设计，只要换上自己应用的主要颜色和选中颜色就可以完成了。但这样只能点击底部标签进行切换，而滑动操作要更符合人们的习惯，为了支持滑动切换还需要加入ViewPager配合BottomNavigationView使用。</p>
+
+<p>整个导航部分的实现分两部分实现，一是设计页面内容，初步定为三页，分别是个人收藏的模型，服务端获取的模型和打印相关，这三页要以Fragment的形式加到ViewPager中。二是协调ViewPager和BottomNavigationView，ViewPager是实际绑定了页面的，BottomNavigationView只提供选中状态和点击事件，为了让二者同步工作，需要在ViewPager滑动完成后把BottomNavigationView的状态切换到当前显示页，在BottomNavigationView标签被点击时给ViewPager设置当前页为相应页面。</p>
+
+<h6 id="toc_17">3.3.3 侧边栏</h6>
+
+<p>Android早期的设计中有一个菜单键，点击调出应用菜单，里面是一些不常用但不可或缺的内容，这样可以节省屏幕空间使页面更加专注，但菜单是否存在无法确定，也增加了用户的使用难度。随着Android的发展，侧边栏替换掉了原来的菜单，从左侧滑出的侧边栏动画更加流畅，只要在左上角加一个小小的图标，最重要的是支持滑动操作打开，整体的用户体验要好很多。</p>
+
+<p>在Android Studio的默认工程模版中就有自带了侧边栏的Activity，直接使用模版，再对内容进行修改即可。默认的实现使用了DrawerLayout，ActionBarDrawerToggle和NavigationView，完全符合材料设计，DrawerLayout是整个侧边栏的根布局，其内容主要是NavigationView，ActionBarDrawerToggle是和DrawerLayout状态绑定的状态按钮，在ActionBar最左侧显示，是一个对侧边栏存在的提示。大部分的代码已经自动生成了，需要改动的部分主要是NavigationView的内容和添加点击事件，以及点击后的处理。默认状态下侧边栏打开时高度是远高于页面内容的，点击NavigationView的item后会关闭，此时导航栏关闭动画还在进行，如果同时触发点击事件会有一个难以避免的卡顿，在跳转页面时尤为明显。为了操作的流畅度，这里需要让动画结束再跳转，也就是给DrawerLayout添加Listener，在DrawerLayout.DrawerListener的onDrawerClosed方法中进行跳转等操作。</p>
+
+<h6 id="toc_18">3.3.4 主页面</h6>
+
+<p>主页面是启动页结束后默认显示的页面，也就是用户最先看到的页面，其重要性不言而喻。一般的App中主页内容都是最多的，布局也是最复杂的，然而我的模型文件太少了，甚至没有分类的必要，主页只要一个列表就能显示所有需要的信息了。但是为了以后可能的扩展方便，使用形式百变的RecyclerView替代ListView，用CardView承载item以符合材料设计风格。</p>
+
+<p>RecyclerView是一种非常强大的控件，通过定制Adapter，LayoutManager和ItemDecoration可以实现各种样式的多item布局，还可以根据item进行样式的选择，在同一个RecyclerView中用不同的样式显示内容，几乎可以满足所有的需求。Adapter的内部强制使用ViewHolder模式，性能上也非常出色，配合CardView使用已经是很多资讯类应用的主页布局了。CardView是一种自带材料属性的FrameLayout，把内容View放到CardView里就能组成一个Material，CardView还支持圆角设置，在显示图片时表现也很突出。</p>
+
+<p>主页面的数据不可能直接全部加载，就需要一个加载更多的触发方式。加载更多是对列表内容的扩展，实现方法就只能是在列表上方或下方添加，Google提供了一个很好看的材料设计风格的下拉刷新控件SwipeRefreshLayout，直接替换MainFragment的根布局就可以了。假定默认只显示3个模型，下拉刷新一次增加3个，当内容很多时滑动起来会很麻烦，需要一个快速跳转的办法，可以是右侧滑动条或者在右下角加一个回到顶部的按钮。不过目前数据量很小，增加不必要的元素会适得其反，先记录一下这个问题。</p>
+
+<h6 id="toc_19">3.3.5 PopupWindow</h6>
+
+<p>主页以一种列表的方式显示模型的大概内容，也就需要点击查看详细的内容。对于怎么显示模型详情也有不同的实现方案，最直接的思路是单独写一个Activity，接收模型信息并显示，这是一种符合人们习惯的操作方式，至少不会破坏用户体验。然而，在我写完之后发现了几个问题，第一，模型的信息虽然不少，但单独做一个页面还是显得很空，只能把图片放大，或者放弃用ViewPager显示预览图；第二，模型信息页并不是最终页面，还可能跳转到图片详情，STLView等，这样的情况下跳转就显得有些麻烦；第三，模型详情页很难设计，如果不使用CardView就是去了材料设计的感觉，如果单独只有一个CardView页面的其他元素就显得多余，如果用了多个CardView每个卡片上的内容都不多，还会割裂信息的相关性。几次尝试之后，我删除了模型详情的Activity，尝试用PopupWindow来做。从外观上看，PopupWindow就像是单独提取出了模型详情Activity中的一个CardView，悬浮显示在主页面之上，只要显示和消失的动画流畅就不会有突兀的感觉，再进行跳转的逻辑也不算复杂，如果只是想看模型的文字介绍和预览图就不需要跳转，不容易分散注意力。</p>
+
+<p>按照单一职责原则，这里需要自定义一个专用于显示模型详情的PopupWidow，PopupWindow中的显示和点击等处理都放在PopupWindow中，尽量减少主页和PopupWindow的耦合关系，最好是主页点击列表项，组织数据传给PopupWindow并展示之，之后就和主页无关了。确定了内容实现起来并不复杂，主要是在PopupWindow的构造方法中加载一个布局文件，并设置显示内容和ClickListener，这个跟Activity的onCreate方法基本一致，没有什么难点，唯一的问题是不在Activity中进行页面跳转时intent需要额外进行setFlag，否则会崩溃。设置动画需要用到xml动画文件以及style，因为API中只支持了setAnimationStyle方法。</p>
+
+<p>都做好了之后我发现效果很一般，虽然PopupWindow的高度是在主页的所有View之上的，但是界限并不明显，而且颜色差别也不大，有些部分就像融合在一起了，难以把注意力放到PopupWindow上。为了凸显PopupWindow，我觉得应该又一个类似于对话框弹出时的背景变暗效果，于是去查了一下API，竟然没有。那就只能按自己的想法来做了，思路很简单，PopupWindow不属于主页面，在PopupWindow弹出时把主页亮度下调就可以了，变暗的效果和弹出的动画在时间上要保持一致，变化过程尽可能平滑。为了变暗的效果需要重写所有的show方法，而实际上并不会都用到，所以我自己提供了一个单独的show方法，而不使用PopupWindow自身的方法。</p>
+
+<h6 id="toc_20">3.3.6 设置页</h6>
+
+<p>设置是给予用户定制应用的一些功能的窗口，每个应用都应该有设置的功能，当设置的内容比较多的时候就需要单独做一个设置页了。能放到设置页的主要内容是某些不常用的控制属性设置（比如对网络类型的控制，应用主题的设置等），还有应用的版本信息，检查更新，开源许可证等也可以放到设置页中。当设置项在7个以下时设置页不需要分组就可以，7个以上则应该按照设置内容的相关性进行分组，超过16个时应该把分组内容单独组成一页，避免页面混乱。设置页是不常用的设置项集合，常用的设置项要放到其他明显的地方，设置页的入口应该不在页面当中，可以放在侧边栏或者工具栏的扩展里。</p>
+
+<p>设置的内容应该有一套缺省的，和一套用户自定义后的，通常使用SharedPreference保存设置的内容。即制作设置页就是把UI的操作映射到一个SharedPreference，这个页面可以完全自己开发，也可以用一些第三方的库，如果使用材料设计，可以直接用Android Studio的工程模版创建一个设置页，只要修改xml文件就能实现。然而本课题的App还没有太多设置内容，一页就足够了，使用模版要删除很多内容反而麻烦，不如直接去写。</p>
+
+<p>设置页是一个单独的Activity，其内容包括一个PreferenceFragment和一个preference的xml资源文件，preference在PreferenceFragment的onCreate中用addPreferencesFromResource加载。preference.xml需要位于res中的xml文件夹中，根结点是PreferenceScreen，其中每一个preference对应一条设置内容，会存为一条SharedPreference。常用的xml标签有开关状态的SwitchPreference，编辑内容的EditTextPreference，多种选项的ListPreference和仅显示文字的Preference。最后继承PreferenceFragment，实现OnSharedPreferenceChangeListener和OnPreferenceClickListener接口，在onSharedPreferenceChanged方法中进行设置内容改变的处理（不需要写到SharedPreference里，只要做其他操作就行），在onPreferenceClick方法中处理点击设置项的事件就完成了。</p>
+
+<h4 id="toc_21">3.4 3D打印机控制</h4>
+
+<p><strong>1.普通打印机控制原理</strong></p>
+
+<p>要实现控制3D打印，只有Android端本身显然是不够的，通过Android实现3D打印控制的功能首先就要知道3D打印机如何控制。3D打印机的概念源自普通打印机，学习普通打印机的原理是接下来的第一步。</p>
+
+<p>普通打印机的工作流程是由PC的控制软件将要打印的文档或图片等平面文件用页面描述语言进行处理，配合打印指令输入到打印机中，打印机按顺序执行打印指令，最终打印出文件。打印指令，又称作打印控制命令，是打印机能理解的唯一语言，打印机驱动程序就是在将其他的操作和控制等命令翻译成打印指令。主流的打印指令集有三种，分别是Epson公司的Esc指令集，HP公司的PCL指令集和Adobe公司的PostScript指令集，Esc指令集主要应用于点阵式打印机和票据打印机，但点阵式打印机正被激光打印机快速取代，只是由于造价低还没被完全淘汰；PCL的全称是Printer Command Language，最初也是为点阵式打印机设计的，PCL3开始得到广泛的应用，到现在已经是PCL6版本，它更加灵活，是一个目标朝向的控制语言，处理多图形的文件的速度大大加快，同时它也是一种解释型语言，打印机可以在接收指令的同时执行打印，控制方式非常方便，现主要应用于激光打印机；PostScript与前两种完全不一样，Adobe公司并不生产打印机，PostScript是一种与打印机无关的页面描述语言，具有极强的图形和文字描述能力，但是需要编译才能执行而且需要光栅图像处理器。</p>
+
+<p><strong>2.3D打印机控制原理</strong></p>
+
+<p>3D打印机在处理过程中与普通打印机基本一致，最大的区别是3D打印机按照“层”来打印，所以在描述模型之前还要先进行分层。对于3D打印机来说，打印指令是一种叫做G-code的代码，模型文件的每一层都被描述为G-code输入到3D打印机，事实上，对3D打印机的所有操作都是G-code完成的。然而，虽然G-code是3D打印的标准指令，但不同的3D打印机使用的G-code并不完全一致，只能先选择一种进行研究，再做兼容。</p>
+
+<p>G-code其实是一种广泛使用的数控编程语言，是一种非常精细的控制，对于3D打印机就是控制喷头的每一个动作，就从RepRap G-M代码集说明一下G-code的能力。G-code的格式是大写字母+数字，用n表示数字，G-code可概述为：<br>
+Gnnn，标准的G-code指令，控制喷头；<br>
+Mnnn，RepRap定义的指令，控制打印机辅助硬件；<br>
+Tnnn，选择工具，通常是喷头；<br>
+Snnn，命令参数，如电压；<br>
+Pnnn，命令参数，频率；<br>
+Xnnn，描述位置的X坐标；<br>
+Ynnn，描述位置的Y坐标；<br>
+Znnn，描述位置的Z坐标；<br>
+Ennn，线材挤出长度；<br>
+Fnnn，喷头移动速度（mm／min）；<br>
+Rnnn，内容参数；<br>
+Nnnn，行号，用来标记某行代码；<br>
+*nnn，校验码，用来检测通信错误；    </p>
+
+<p>其中，Ennn控制的线材挤出长度也是一个类似坐标的位置，值为目前喷头处线材位置减去初始线材位置的差值。Nnnn和*nnn总是一起使用，功能是检查通信错误并重新执行出错的某行代码。此外还有尚未定义功能但是存在的G-code，如Innn，Jnnn和Qnnn。</p>
+
+<div><pre><code class="language-none">M107
+G0 F9000 X72.70 Y31.67 Z0.30
+G0 X72.70 Y31.67;TYPE:SKIRT
+G1 F2400 E0.00000
+G1 F1200 X73.24 Y30.74 E0.02764
+G1 X73.24 Y30.74 E0.02766
+G1 X74.14 Y29.19 E0.07419
+G1 X74.80 Y28.35 E0.10170
+G1 X75.93 Y26.94 E0.14847
+G1 X76.71 Y26.22 E0.17605
+G1 X78.03 Y24.99 E0.22263
+……</code></pre></div>
+
+<p>举个例子，G-code文件以行为单位执行，每一行代表一次操作，以Gnnn和Mnnn开头。前几行一般是初始化设置，比如M107关闭风扇，F9000是设置喷头移动速度，主体部分都是Gnnn Xnnn Ynnn Ennn，表示移动到某一坐标，同时喷头挤出多少线材。X和Y的坐标比较多，因为在生成G-code文件前已经进行过切片操作，每一切片的内部都是二维操作，不涉及Z轴变化。第三行中的分号表示注释，分号后面的字符不会被执行，传输到3D打印机前可以去掉以减少数据量。</p>
+
+<p><strong>3.驱动与通信方式</strong></p>
+
+<p>打印机与其控制端的通信方式向来都是通过USB连接实现的，而Android设备显然无法直接和打印机通信。普通打印机实现的无线操作的方法是某一PC连接打印机，安装驱动并设置为共享打印机，其他设备在同一局域网内就可以搜索到打印设备，并以连接打印机的PC作为桥梁控制打印机。</p>
+
+<p>Android的网络通信大多采用http协议，网络框架也基本都是支持http协议的，但是在同一局域网内通信并不使用http协议，而是socket。socket通常被翻译成套接字，是在应用层和传输层之间的一个抽象层，socket的通信方式与http的请求-响应方式完全不同，socket先是在通信双方之间建立连接，然后直接传输数据，通信的双方是平等的，都可以收发数据。在TCP／IP协议族中，socket的实现有流套接字和数据报套接字两种，流套接字基于TCP协议，数据包套接字基于UDP协议。</p>
+
+<p>Android应用中可以直接使用Java中socket相关的API，通信双方创建好socket连接，循环监听socket端口，得到数据流进行处理即可。</p>
+
+<p><strong>4.难点分析与方案讨论</strong></p>
+
+<p>使用Android设备控制3D打印可以说是本课题最难的一部分，其难点在于如何把STL文件的信息转换为G-code代码，以及如何让Android设备中的数据信息传给3D打印机。虽然成果不多，研究的内容还是值得记录一下的，对于Android到3D打印机的整个流程来说，有如下三个方案可能实现。</p>
+
+<ul>
+<li><p>方案一：Android端完全控制<br>
+Android把STL文件在Android端直接转换为G-code代码，把G-code代码作为传输数据发送到3D打印机，直接控制打印机工作。此方案的优势是实现方式直接，不需要PC端的协助，整体工作量会少很多，毫无疑问是首选的方案。然而实现难度也相当大，STL文件的内容是顶点数组，以三角形为单位，每个三角形未必在同一平面，而处理成G-code之前需要切片，以层为单位编写成G-code。编写G-code过程中还需要注意喷头的动作顺序，移动速度，线材的喷出等细节问题，实现难度太大。</p></li>
+<li><p>方案二：经由PC进行翻译<br>
+Android设备把选定的STL文件发到连接3D打印机的PC，由PC端进行处理得到G-code，再传输到打印机进行打印。此方案的优势在于PC端已经有3D打印机的控制软件，如果能够调用就不需要自己做G-code的编码，一定程度上降低的Android端的难度。但是如何使用Android调用第三方的PC软件依然是一个难以解决的问题，而且Android端传输STL文件到PC端也会平添很多麻烦。</p></li>
+<li><p>方案三：PC端完全控制<br>
+既然需要用到PC端中转，就不如完全使用PC端来打印。Android端把模型信息传给PC，PC根据Android传来的数据获取服务端的STL文件，再转为G-code代码进行打印。此方案比方案二稍好一点，避免了STL文件下载到Android端再传输到PC端的尴尬，但如何控制PC端软件的问题依然存在，如果是同时研发PC和移动端软件的话这可能是一个很合适的实现方案。</p></li>
+</ul>
+
+<p>最终打印的功能并没能实现，3D打印机的驱动和数据传输都依赖于PC端，使用Android做3D打印机的控制软件，除了自己设计专属的硬件设备之外都无法不面对与PC端互动的问题。这是选题时没有考虑到的问题，所以在要求时间之内无法完成了。</p>
+
+<h4 id="toc_22">3.5 总结与展望</h4>
+
+<p>跟最初的计划相比，App只完成课题内容的三分之二，还没办法称作3D打印机的控制App。选题的时候只对Android页面实现方面进行了详细的分析，而忽略了硬件方面的学习，对Android的局限性缺乏认知，导致了最终App的缺陷。从时间上看，对Android开发的学习时间超出预期，其他部分内容都没有时间深入学习也是一个不足之处。</p>
+
+<p>Android还在飞速发展，3D打印的普及也是才刚开始，这两项技术的融合也是大势所趋。物联网的概念也在慢慢变成现实，总有一天，3D打印机会成为物联网的一部分，会自带无线通信模块，而Android移动设备作为物联网中直接与人交互的部分之一，必将拥有其他“物”的控制能力。物联网的时代正在来临，Android在这个时代必将大放异彩。</p>
+
+
+
+
+</body>
+
+</html>
