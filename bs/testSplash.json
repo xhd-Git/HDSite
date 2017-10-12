@@ -1,0 +1,22 @@
+{	
+  "status" : 0,
+  "data"   : 
+  [
+  {
+	"res_url"  :  "https://xhd-git.github.io/HDSite/bs/bs_flush.png", 
+	"id"       :  "thefirstpage", 
+	"start"    :  1507791600000, 
+	"end"      :  1507793400000, 
+	"type"     :  "ad", 
+	"url"      :  "http://www.reol.cf"
+  },
+  {
+	"res_url"  :  "https://xhd-git.github.io/HDSite/bs/bs_flush.png", 
+	"id"       :  "thesecondpage", 
+	"start"    :  1507795200000, 
+	"end"      :  1507798800000, 
+	"type"     :  "ad", 
+	"url"      :  "http://www.reol.cf"
+  } 
+  ]
+}
